@@ -14,9 +14,7 @@
     <div class="row">
 
         <div class="col-sm-8 site-main">
-
             <img src="https://raw.githubusercontent.com/SocietyCMS/Artwork/master/SocietyCMS-sign.png" class="img-fluid" alt="SocietyCMS Logo">
-
         </div>
 
         <div class="col-sm-3 col-sm-offset-1 site-sidebar">

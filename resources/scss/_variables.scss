@@ -34,3 +34,17 @@ $offWhite         : #F9FAFB;
 $darkWhite        : #F3F4F5;
 $midWhite         : #DCDDDE;
 $white            : #FFFFFF;
+
+// Bootstrap Colors
+
+$gray-dark:                 $lightBlack !default;
+$gray:                      $grey !default;
+$gray-light:                $lightGrey !default;
+$gray-lighter:              $darkWhite !default;
+$gray-lightest:             $midWhite !default;
+
+$brand-primary:             $blue !default;
+$brand-success:             $green !default;
+$brand-info:                $lightBlue !default;
+$brand-warning:             $lightYellow !default;
+$brand-danger:              $lightRed !default;

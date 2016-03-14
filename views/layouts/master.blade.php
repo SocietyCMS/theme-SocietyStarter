@@ -7,7 +7,7 @@
         <meta name="description" content=""/>
     @show
 
-    <title>@yield('title')</title>
+    <title>@yield('title') | {{ Setting::get('core::site-name') }}</title>
 
     <link rel="shortcut icon" href="{{ Theme::url('favicon.ico') }}">
     {!! Theme::script('build.js') !!}
@@ -27,6 +27,13 @@
     <div class="container">
         @yield('content')
     </div>
+
+    <footer class="site-footer">
+        <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
 
 </body>
 </html>
