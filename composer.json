@@ -1,0 +1,14 @@
+{
+  "name": "societycms/theme-societystarter",
+  "description": "The SocietyCMS Default Theme.",
+  "keywords": ["cms", "societycms", "theme"],
+  "license": "MIT",
+  "version": "0.0.1",
+  "type": "societycms-theme",
+  "authors": [
+    {
+      "name": "Ralph Huwiler",
+      "email": "ralph@huwiler.rocks"
+    }
+  ]
+}
