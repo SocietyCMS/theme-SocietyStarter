@@ -15,7 +15,7 @@ module.exports = {
 
     module: {
         loaders: [
-            { test: /\.jsx?$/, exclude: /(node_modules|bower_components)/, loader: 'babel', query: { presets: ['react', 'es2015'], plugins: ['transform-runtime']} },
+            { test: /\.jsx?$/, exclude: /(node_modules|bower_components)/, loader: 'babel', query: { presets: ['es2015'], plugins: ['transform-runtime']} },
             { test: /\.vue$/, loader: 'vue' },
 
             {test: /\.scss$/, loader: 'style!css-loader!postcss-loader!sass-loader'},
