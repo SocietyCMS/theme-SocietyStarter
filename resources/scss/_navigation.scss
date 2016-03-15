@@ -1,0 +1,54 @@
+
+/* Site navigation */
+.site-nav {
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+
+    li {
+      display: inline-block;
+      padding: 1rem;
+      position: relative;
+
+      /* Nav links */
+      a {
+        color: $offWhite;
+      }
+      a:hover,
+      a:focus {
+        color: $white;
+        background-color: transparent;
+      }
+
+      /* Active state gets a caret at the bottom */
+      a.active {
+        color: $white;
+      }
+
+    }
+
+    li.active:after {
+      color: $white;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 0;
+      height: 0;
+      margin-left: -.3rem;
+      vertical-align: middle;
+      content: "";
+      border-right: .3rem solid transparent;
+      border-bottom: .3rem solid;
+      border-left: .3rem solid transparent;
+    }
+  }
+
+  .nav-header {
+    font-weight: bold;
+  }
+
+}
+
+

@@ -1,0 +1,18 @@
+/*
+ * Footer
+ */
+.site-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: $darkWhite;
+  border-top: .05rem solid #e5e5e5;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+}
+.site-footer p:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,26 @@
+
+/*
+ * Site name and description
+ */
+
+.site-header {
+  padding-bottom: 1.25rem;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+  border-bottom: .05rem solid #eee;
+}
+.site-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.site-description {
+  font-size: 1.1rem;
+  color: $grey;
+}
+
+@media (min-width: 40em) {
+  .site-title {
+    font-size: 3.5rem;
+  }
+}
