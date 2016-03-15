@@ -37,6 +37,7 @@
     "font-awesome": "^4.5.0",
     "jquery": "^2.1.4",
     "lightbox2": "^2.8.2",
+    "luminous-lightbox": "^0.2.3",
     "tether": "^1.2.0"
   }
 }

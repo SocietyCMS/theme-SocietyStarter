@@ -17,12 +17,14 @@
 
     @include('partials.navigation')
 
-    <div class="site-header">
-        <div class="container">
-            <h1 class="site-title">@yield('title')</h1>
-            <p class="lead site-description">@yield('description')</p>
+    @section('header')
+        <div class="site-header">
+            <div class="container">
+                <h1 class="site-title">@yield('title')</h1>
+                <p class="lead site-description">@yield('description')</p>
+            </div>
         </div>
-    </div>
+    @show
 
     <div class="container">
         @yield('content')
