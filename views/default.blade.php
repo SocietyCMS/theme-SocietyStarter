@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    {{ $content->title }} | @parent
+    {{ $content->title }}
 @stop
 @section('meta')
     <meta name="title" content="{{ $content->meta_title}}" />
@@ -9,10 +9,5 @@
 @stop
 
 @section('content')
-    <div class="row">
-        <div class="text-center article-title">
-            <h1>{{ $content->title }}</h1>
-        </div>
-        {!! $content->body !!}
-    </div>
+    <p class="text-justify"> {!! $content->body !!} </p>
 @stop
