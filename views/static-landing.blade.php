@@ -12,11 +12,11 @@
 
     <div class="row">
 
-        <div class="col-sm-8 site-main">
-            <img src="https://raw.githubusercontent.com/SocietyCMS/Artwork/master/SocietyCMS-sign.png" class="img-fluid" alt="SocietyCMS Logo">
+        <div class="col-md-8 site-main">
+            <img src="https://raw.githubusercontent.com/SocietyCMS/Artwork/master/SocietyCMS-sign.png" class="img-fluid" alt="SocietyCMS Logo" style="width: 100%;">
         </div>
 
-        <div class="col-sm-3 col-sm-offset-1 site-sidebar">
+        <div class="col-md-3 col-md-offset-1 site-sidebar">
             <div class="sidebar-module sidebar-module-inset">
                 <h4>About</h4>
                 <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
