@@ -2,40 +2,10 @@
  * Blog Module
  */
 
-/*
- * Blog posts
+
+ /*
+ * Blog Header
  */
-
-.blog-post {
-  margin-bottom: 4rem;
-
-  &.pinned {
-    border: 1px solid #e5e5e5;
-    border-radius: 0.25rem;
-    padding: 1.25rem;
-  }
-
-  .blog-post-title {
-    margin-bottom: .25rem;
-    font-size: 2.5rem;
-  }
-
-  .blog-post-meta {
-    margin-bottom: 1.25rem;
-    color: #999;
-  }
-
-  .blog-post-image {
-    width: 100%;
-    margin-bottom: 1.25rem;
-  }
-
-  .card-group .card {
-    flex-grow: 0;
-  }
-
-}
-
 .blog-post-header {
 
   position:relative;
@@ -75,6 +45,127 @@
 
   .site-description {
     color: $gray-light;
+  }
+
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 4rem;
+
+  &.pinned {
+    border: 1px solid #e5e5e5;
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+  }
+
+  .blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+  }
+
+  .blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #999;
+  }
+
+  .blog-post-image {
+    width: 100%;
+    margin-bottom: 1.25rem;
+  }
+
+  .card-group .card {
+    flex-grow: 0;
+  }
+
+  // Medium Editor
+  .medium-insert-images {
+    text-align: center;
+    figure {
+      margin: 0;
+      display: block;
+      img {
+        max-width: 100%;
+        margin-top: 1em;
+        vertical-align: top;
+      }
+      &:first-child {
+        img {
+          margin-top: 0;
+        }
+      }
+    }
+    &.medium-insert-images-left {
+      max-width: 33.33%;
+      float: left;
+      margin: 0 30px 20px 0;
+    }
+    &.medium-insert-images-right {
+      max-width: 33.33%;
+      float: right;
+      margin: 0 0 20px 30px;
+    }
+    &.medium-insert-images-grid {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: center;
+      margin: 0.5em -0.5em;
+      figure {
+        width: 33.33%;
+        display: inline-block;
+        img {
+          max-width: calc(100% - 1em);
+          margin: 0.5em;
+        }
+      }
+    }
+  }
+
+  .medium-insert-embeds {
+    text-align: center;
+    margin: 1em 0;
+    position: relative;
+    iframe {
+      margin: 0 auto !important;
+    }
+    div {
+      margin: 0 auto !important;
+    }
+    &.medium-insert-embeds-left {
+      width: 33.33%;
+      float: left;
+      margin: 0 30px 20px 0;
+    }
+    &.medium-insert-embeds-right {
+      width: 33.33%;
+      float: right;
+      margin: 0 0 20px 30px;
+    }
+  }
+
+  .medium-insert-images, .medium-insert-embeds {
+    figure {
+      position: relative;
+      figcaption {
+        position: relative;
+        z-index: 1;
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+        color: #ccc;
+        font-size: 0.8em;
+        font-style: italic;
+        outline: 0 solid transparent;
+        &:focus {
+          outline: 0 solid transparent;
+        }
+      }
+    }
   }
 
 }
