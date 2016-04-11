@@ -38,10 +38,6 @@
                     <li><a href="#">April 2013</a></li>
                 </ol>
             </div>
-            <div class="sidebar-module">
-                <h4>Elsewhere</h4>
-                {!! Menu::get('social')->asOl(['class' => 'list-unstyled']) !!}
-            </div>
         </div>
 
     </div>
