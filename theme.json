@@ -1,5 +1,20 @@
 {
   "name": "SocietyStarter",
   "description": "This is the default SocietyCMS Startertheme",
-  "type": "frontend"
+  "type": "frontend",
+  "options": {
+    "gallery": {
+      "medialibrary": [
+        {
+          "name": "wide320",
+          "collection": "images",
+          "manipulation": {
+            "w": 320,
+            "h": 180,
+            "fit": "crop"
+          }
+        }
+      ]
+    }
+  }
 }
