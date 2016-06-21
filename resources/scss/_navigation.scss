@@ -17,7 +17,7 @@
         padding: 1em;
       }
 
-      li.active:after {
+      &.active:after {
         color: $white;
         position: absolute;
         bottom: 0;
