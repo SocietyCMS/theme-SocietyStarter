@@ -41,7 +41,7 @@ module.exports = {
     },
     plugins: [
         new BrowserSyncPlugin({
-            proxy: 'societycms.dev',
+            proxy: 'http://societycms.local/',
             reloadDelay: 1000
         }),
 
